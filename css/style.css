@@ -34,6 +34,9 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
+};
+.ratings{
+  display: flex;
 }
 .single-product {
   padding: 10px;
