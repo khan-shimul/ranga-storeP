@@ -10,7 +10,7 @@ const showProducts = (products) => {
     console.log(product)
     // customers count
     const { rate, count } = product.rating;
-    console.log(rate, count);
+    // console.log(rate, count);
     const image = product.image;
     const div = document.createElement("div");
     div.classList.add("product");
