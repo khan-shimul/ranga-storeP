@@ -22,17 +22,14 @@
 </head>
 
 <body>
-  <header></header>
-  <main class="main">
-    <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
+  <header>
+    <!-- Search Area -->
+    <div class="search-area">
+      <input class="search-field" type="text" placeholder="Search for...">
+      <button id="search-btn">Search</button>
     </div>
+  </header>
+  <main class="main">
     <!-- Products Section -->
     <section>
       <div class="row">
