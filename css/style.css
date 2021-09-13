@@ -37,6 +37,7 @@ body {
   text-align: center;
   width: 100%;
   margin-left: 12px;
+  margin-bottom: 10px;
   align-items: center;
   justify-content: center;
 };
@@ -116,7 +117,9 @@ body {
 .amount{
   color: #2c6eda;
 }
-
+.rating-mb{
+  margin-bottom: 20px;
+}
 .padding{
   padding: 15px;
 }
