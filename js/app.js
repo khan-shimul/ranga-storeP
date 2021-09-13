@@ -21,7 +21,19 @@ const showProducts = (products) => {
       <h3 class="p-title">${product.title}</h3>
       <p>Category: ${product.category}</p>
       <h2 class="price-text">Price: <span class="amount">$${product.price}</span></h2>
-      <h5 class="rating-mb reviews-style">Rating: ${rate} (${count} Reviews)</h5>
+      <div>
+      <span class="rating">${rate}</span>
+      <span class="reviews-icon">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      </span>
+      <span class="last-icon">
+      <i class="fas fa-star "></i>
+      </span>
+      <span class="text-secondary">(${count})</span>
+      </div>
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="cart-btn">Add To Cart</button>
       <button id="details-btn" class="details-btn">Details</button>
       </div>

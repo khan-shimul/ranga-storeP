@@ -85,6 +85,7 @@ body {
   color: white;
   background-color: #2879FE;
   margin-right: 10px;
+  margin-top: 20px;
 }
 .cart-btn:hover{
   background-color: #2267D8;
@@ -98,6 +99,7 @@ body {
   color: white;
   background-color:#ffda48;
   color: #3D3D3D;
+  margin-top: 20px
 }
 .details-btn:hover{
   background-color: #ffe063;
@@ -117,9 +119,9 @@ body {
 .amount{
   color: #2c6eda;
 }
-.rating-mb{
-  margin-bottom: 20px;
-}
+/* .rating-mb{
+  margin-bottom: 50px;
+} */
 .padding{
   padding: 15px;
 }
@@ -139,9 +141,21 @@ body {
   color: #8532F0;
 }
 
-.reviews-style{
-  color: #FF7800;
+/* reviews */
+.rating{
+  color: #df6400;
+  font-size: 16px;
+  font-weight: bold;
 }
+
+.reviews-icon{
+  color: #FD8000;
+}
+
+.last-icon{
+  color: #909090;
+}
+
 
 @media only screen and (max-width: 768px) {
   #all-products {
